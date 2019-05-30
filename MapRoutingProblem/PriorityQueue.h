@@ -8,6 +8,12 @@
 
 #ifndef PriorityQueue_h
 #define PriorityQueue_h
+#import "Vertex.h"
+@interface PriorityQueue<ObjectType>: NSObject
 
+@property NSMutableArray *binaryHeap;
 
+-(void) enqueue: (Vertex *) v;
+-(Vertex *) dequeue;
+@end
 #endif /* PriorityQueue_h */

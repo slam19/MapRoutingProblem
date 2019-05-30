@@ -7,3 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Coordinate.h"
+
+@implementation Coordinate
+
+-(id) initWithX:(int) x AndY:(int) y{
+    self = [super init];
+    if (self){
+        self.x = x;
+        self.y = y;
+    }
+    return self;
+}
+
+@end

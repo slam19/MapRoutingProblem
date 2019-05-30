@@ -9,5 +9,14 @@
 #ifndef Vertex_h
 #define Vertex_h
 
+@interface Vertex<ObjectType>: NSObject
 
+@property int index;
+@property int cost;
+@property Vertex* previous;
+
+-(id) initWithIndex:(int) i AndCost:(int) c AndPrevious: (Vertex *) v;
+-(id) initEmptyVertex;
+
+@end
 #endif /* Vertex_h */
