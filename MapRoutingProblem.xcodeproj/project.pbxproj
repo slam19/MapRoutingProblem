@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8219A03E226E420000AF40D4 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8219A03D226E420000AF40D4 /* Vertex.m */; };
+		8219A041226E471700AF40D4 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8219A040226E471700AF40D4 /* Coordinate.m */; };
 		8222958822650CD70004D4FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8222958722650CD70004D4FB /* AppDelegate.m */; };
 		8222958A22650CD70004D4FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8222958922650CD70004D4FB /* GameScene.sks */; };
 		8222958C22650CD70004D4FB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8222958B22650CD70004D4FB /* Actions.sks */; };
@@ -17,6 +19,9 @@
 		8222959A22650CD90004D4FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8222959922650CD90004D4FB /* main.m */; };
 		822295A522650CD90004D4FB /* MapRoutingProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822295A422650CD90004D4FB /* MapRoutingProblemTests.m */; };
 		822295B022650CD90004D4FB /* MapRoutingProblemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822295AF22650CD90004D4FB /* MapRoutingProblemUITests.m */; };
+		822295BE22650CED0004D4FB /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 822295BD22650CED0004D4FB /* PriorityQueue.m */; };
+		823393F2226A54FC006D7218 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 823393F1226A54FC006D7218 /* Map.m */; };
+		823393F7226A5670006D7218 /* usa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 823393F6226A5670006D7218 /* usa.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8219A03C226E41F700AF40D4 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		8219A03D226E420000AF40D4 /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		8219A03F226E470C00AF40D4 /* Coordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		8219A040226E471700AF40D4 /* Coordinate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
 		8222958322650CD70004D4FB /* MapRoutingProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapRoutingProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8222958622650CD70004D4FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8222958722650CD70004D4FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +66,11 @@
 		822295AB22650CD90004D4FB /* MapRoutingProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapRoutingProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822295AF22650CD90004D4FB /* MapRoutingProblemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapRoutingProblemUITests.m; sourceTree = "<group>"; };
 		822295B122650CD90004D4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822295BD22650CED0004D4FB /* PriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueue.m; sourceTree = "<group>"; };
+		822295BF22650CF90004D4FB /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		823393F0226A54F0006D7218 /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		823393F1226A54FC006D7218 /* Map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		823393F6226A5670006D7218 /* usa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usa.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +129,15 @@
 				8222958E22650CD70004D4FB /* GameScene.m */,
 				8222959022650CD70004D4FB /* ViewController.h */,
 				8222959122650CD70004D4FB /* ViewController.m */,
+				822295BF22650CF90004D4FB /* PriorityQueue.h */,
+				822295BD22650CED0004D4FB /* PriorityQueue.m */,
+				823393F0226A54F0006D7218 /* Map.h */,
+				823393F1226A54FC006D7218 /* Map.m */,
+				8219A040226E471700AF40D4 /* Coordinate.m */,
+				8219A03F226E470C00AF40D4 /* Coordinate.h */,
+				8219A03D226E420000AF40D4 /* Vertex.m */,
+				8219A03C226E41F700AF40D4 /* Vertex.h */,
+				823393F6226A5670006D7218 /* usa.txt */,
 				8222959322650CD90004D4FB /* Assets.xcassets */,
 				8222959522650CD90004D4FB /* Main.storyboard */,
 				8222959822650CD90004D4FB /* Info.plist */,
@@ -247,6 +270,7 @@
 			files = (
 				8222958A22650CD70004D4FB /* GameScene.sks in Resources */,
 				8222959422650CD90004D4FB /* Assets.xcassets in Resources */,
+				823393F7226A5670006D7218 /* usa.txt in Resources */,
 				8222958C22650CD70004D4FB /* Actions.sks in Resources */,
 				8222959722650CD90004D4FB /* Main.storyboard in Resources */,
 			);
@@ -273,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823393F2226A54FC006D7218 /* Map.m in Sources */,
+				8219A041226E471700AF40D4 /* Coordinate.m in Sources */,
+				8219A03E226E420000AF40D4 /* Vertex.m in Sources */,
 				8222959222650CD70004D4FB /* ViewController.m in Sources */,
 				8222958F22650CD70004D4FB /* GameScene.m in Sources */,
 				8222959A22650CD90004D4FB /* main.m in Sources */,
+				822295BE22650CED0004D4FB /* PriorityQueue.m in Sources */,
 				8222958822650CD70004D4FB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

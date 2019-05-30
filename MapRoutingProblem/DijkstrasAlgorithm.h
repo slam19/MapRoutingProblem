@@ -8,6 +8,11 @@
 
 #ifndef DijkstrasAlgorithm_h
 #define DijkstrasAlgorithm_h
+#import <Foundation/Foundation.h>
+
+@interface DijkstrasAlgorithm<ObjectType>: NSObject
+
+@end
 
 
 #endif /* DijkstrasAlgorithm_h */
