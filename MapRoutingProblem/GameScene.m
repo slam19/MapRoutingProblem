@@ -43,7 +43,7 @@
 }
 
 
--(void) displayPathInMap:(Map *) map{
+-(void) displayPathInMap:(Map *) map{ //change start and finish integer indices to check other paths.
     int start = 12;
     int finish = 789;
     Vertex *v = [map computePathFrom:start To:finish];
